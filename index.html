@@ -492,8 +492,8 @@
                 photoMeshes.forEach((mesh, i) => {
                     if (i === selectedIndex) {
                         // Đưa ảnh ra trước nhưng nhỏ hơn để dễ nhìn tổng thể
-                        mesh.position.lerp(new THREE.Vector3(0, 0, 45), 0.1);
-                        mesh.scale.lerp(new THREE.Vector3(3, 3, 3), 0.1);
+                        mesh.position.lerp(new THREE.Vector3(0, 0, 43), 0.1);
+                        mesh.scale.lerp(new THREE.Vector3(3.5, 3.5, 3.5), 0.1);
                         mesh.lookAt(camera.position); mesh.rotation.z = 0;
                     } else {
                         mesh.scale.lerp(new THREE.Vector3(0,0,0), 0.1);
